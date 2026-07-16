@@ -1,0 +1,11 @@
+# Never vendor upstream TFWWorkbench here - it has no licence and is not ours to redistribute.
+TFWWorkbench/
+*.zip
+*.7z
+*.rar
+
+# Backups the script creates in-place, in the user's mod folder (never in this repo)
+*.stock.bak
+
+__pycache__/
+*.pyc

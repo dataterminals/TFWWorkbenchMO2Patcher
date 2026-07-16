@@ -1,0 +1,42 @@
+{
+  "_comment": "Stock upstream TFWWorkbench hashes, for identifying a release before patching. No upstream code is stored in this repo - only these digests. Verify your own download against them.",
+  "_source": "https://github.com/smotti/TFWWorkbench/releases",
+  "releases": [
+    {
+      "version": "0.2.1",
+      "tag": "0.2.1",
+      "published": "2026-01-20T16:28:00Z",
+      "zip": {
+        "name": "TFWWorkbench-v0.2.1.zip",
+        "size": 133156,
+        "sha256": "13461844995d8c40f49f1724ccb0a7e96f4b268aa55256f226fd5325a12ec400"
+      },
+      "modChildDirs": [
+        "Item",
+        "ItemValue",
+        "CraftingRecipe",
+        "CraftingGroup",
+        "VendorData",
+        "WeaponsDetailsData",
+        "WeaponPartStatsData",
+        "Dumps"
+      ],
+      "modChildDirsParent": "DataTable",
+      "files": {
+        "Scripts/Settings.lua": {
+          "size": 3155,
+          "sha256": "2f1363e04b99c5f6c83f91a7805109db9a90b166eee0ba499a5e3e11b70d511e"
+        },
+        "Scripts/main.lua": {
+          "size": 27064,
+          "sha256": "2230fa8cce69b957ea8507e3134550837ec685870b63912db3841c64be9242c3"
+        },
+        "dlls/main.dll": {
+          "size": 219136,
+          "sha256": "24b05dc267dc6e9faa6cbcb4e85a8491733e0a86b86fbac92f5aa1a0950aa6ca"
+        }
+      },
+      "notes": "Release ships NO enabled.txt and is absent from UE4SS stock mods.txt. ModChildDirs identical to 0.1.2."
+    }
+  ]
+}
